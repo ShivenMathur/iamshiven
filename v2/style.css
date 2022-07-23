@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.disclaimer{
+
+    display: none;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
+
+:root{
+    scrollbar-color: #2a2a72 #009ffd !important;
+    scrollbar-width: thin !important;
+  }
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #2a2a72; 
+
+  }
+   
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+
+
+  }
+
+body{
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body::after {
+    content: "";
+    background: url("./images/bkg.jpg");
+    position: absolute;
+    z-index: -1; 
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;  
+    background-attachment: fixed;  
+    height: 4825px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   }
+
+.center{
+
+    text-align: center;
+}
+
+#topbar{
+
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    position: fixed; top: 0; left: 0; z-index: 9999; width: 40%; height: 50px;
+}
+
+.btn{
+
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover{
+
+    background-color: white;
+    border-radius: 30px;
+}
+
+#first{
+
+    margin-top: 170px;
+}
+
+.section{
+
+    margin-top: 230px;
+}
+
+.textt{
+
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    font-size: 75px;
+}
+
+#hey{
+
+    font-size: 45px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.para{
+
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#code h1{
+
+    margin-bottom: 100px;
+}
+
+#code{
+
+    margin-top: 125px;
+    margin-bottom: 200px;
+}
+
+#age{
+
+    margin-bottom: 75px;
+}
+
+#echo{
+
+    font-size: 30px;
+}
+
+#contacts a{
+
+    color: black;
+    text-decoration: none;
+}
+
+#shiven{
+
+    margin-bottom: 150px;
+}
+
+#contacts{
+
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+#page a{
+
+    color: black;
+
+}
+
+#page{
+
+    margin-top: 100px;
+}
+
+#contact{
+
+    margin-top: 100px;
+}
+
+#born{
+
+    font-size: 15px;
+}
+
+.foot{
+
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+}
+

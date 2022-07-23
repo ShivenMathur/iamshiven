@@ -1,0 +1,50 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+.center{
+    text-align:center;
+}
+
+#title{
+    margin-top:35px;
+    font-size:45px;
+}
+
+.btn{
+    display:inline-block;
+    background-color:turquoise;
+    height:150px;
+    width:250px;
+    font-size:100px;
+    font-weight:bolder;
+    border-radius:20px;
+    
+}
+
+.btn:hover{
+
+    background-color: rgb(66, 212, 198);
+}
+
+.display{
+    display:inline-block;
+    font-size:125px;
+}
+
+#line{
+
+    margin-top: 90px;
+}
+
+.copy{
+
+    color: black;
+}
+
+.disclaimer{
+
+    display: none;
+
+}
